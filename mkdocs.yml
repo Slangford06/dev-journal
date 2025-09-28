@@ -36,12 +36,12 @@ markdown_extensions:
   - tables
   - attr_list
 
-nav:
-  - Home: index.md
-  - JavaScript:
-    - Overview: javascript/README.md
-  - React:
-    - Overview: react/README.md
-  - .NET:
-    - Overview: dotnet/README.md
-  - Tags: tags.md
+#nav:
+#  - Home: index.md
+#  - JavaScript:
+#    - Overview: javascript/README.md
+#  - React:
+#    - Overview: react/README.md
+#  - .NET:
+#    - Overview: dotnet/README.md
+#  - Tags: tags.md
