@@ -44,3 +44,4 @@ nav:
     - Overview: react/README.md
   - .NET:
     - Overview: dotnet/README.md
+  - Tags: tags.md
