@@ -1,0 +1,47 @@
+```yaml
+site_name: Dev Journal
+site_url: https://<your-username>.github.io/dev-journal/
+repo_url: https://github.com/<your-username>/dev-journal
+repo_name: dev-journal
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+plugins:
+  - search
+  - awesome-pages
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - fenced_code
+  - codehilite
+  - tables
+  - attr_list
+
+nav:
+  - Home: index.md
+  - JavaScript:
+    - Overview: javascript/README.md
+  - React:
+    - Overview: react/README.md
+  - .NET:
+    - Overview: dotnet/README.md
