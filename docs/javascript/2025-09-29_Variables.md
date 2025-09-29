@@ -1,8 +1,8 @@
-# Async/Await Basics
+# Variables/let/const Basics
 
 **Topic:** `let`/`const`  
-**Problem:** Nested `.then()` chains were hard to read  
-**Solution:** Use `async`/`await` to write sequential code
+**Problem:** `var` is global and can cause errors  
+**Solution:** Use `let`/`const` to set variables after 2015
 
 ```js
 if(true) {
