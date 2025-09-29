@@ -1,7 +1,8 @@
 site_name: Dev Journal
-site_url: https://<your-username>.github.io/dev-journal/
-repo_url: https://github.com/<your-username>/dev-journal
+site_url: https://slangford06.github.io/dev-journal/
+repo_url: https://github.com/slangford06/dev-journal
 repo_name: dev-journal
+copyright: "© 2025 Shaun Langford"
 
 theme:
   name: material
@@ -10,15 +11,23 @@ theme:
     - navigation.tracking
     - navigation.sections
     - navigation.expand
+    - navigation.tabs                
+    - navigation.top 
     - search.suggest
     - search.highlight
     - content.code.copy
+    - content.tabs.link
+    - header.autohide 
   palette:
     - scheme: default
+      primary: indigo
+      accent: indigo
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
     - scheme: slate
+      primary: indigo
+      accent: indigo
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
@@ -27,15 +36,30 @@ plugins:
   - search
   - awesome-pages
 
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/slangford06
+      name: GitHub
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/slangford06/
+      name: LinkedIn
+
 markdown_extensions:
   - admonition
   - toc:
       permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.tabbed
   - fenced_code
   - codehilite
   - tables
   - attr_list
-
+  
+extra_css:
+  - assets/styles/extra.css
 #nav:
 #  - Home: index.md
 #  - JavaScript:

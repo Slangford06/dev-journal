@@ -1,0 +1,14 @@
+/* Make code blocks a touch more compact */
+.md-typeset code, .md-typeset pre {
+  font-size: 0.9rem;
+}
+
+/* Optional: tighten page width a bit on very wide screens */
+.md-grid {
+  max-width: 75rem; /* default ~61rem */
+}
+
+/* Optional: round images slightly */
+.md-typeset img {
+  border-radius: 6px;
+}
