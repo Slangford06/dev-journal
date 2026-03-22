@@ -3,6 +3,7 @@
 **Topic:** Abort fetch on unmount  
 **Problem:** State update after unmount → memory leak warning  
 **Solution:** AbortController in cleanup
+**Tags:** #react #hooks
 
 ```jsx
 useEffect(() => {
@@ -17,3 +18,4 @@ useEffect(() => {
 
   return () => controller.abort();
 }, []);
+```

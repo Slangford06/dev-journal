@@ -3,6 +3,7 @@
 **Topic:** `let`/`const`  
 **Problem:** `var` is global and can cause errors  
 **Solution:** Use `let`/`const` to set variables after 2015
+**Tags:** #javascript
 
 ```js
 if(true) {
@@ -11,6 +12,7 @@ if(true) {
 }
 
 console.log(name)  // Error: name is not defined
+```
 
 `var` is a global variable that should not be used today
 
@@ -20,6 +22,7 @@ console.log(name)  // Error: name is not defined
 
 **Topic:** `strings and variables`  
 
+```js
 let name = "John";
 let topic = "JavaScript";
 
@@ -35,5 +38,6 @@ let topic = "JavaScript";
 console.log(`${name} is learning ${topic} today`);
 
 // Output: John is learning JavaScript today
+```
 
 To use the template strings format, you need to use the backtick (`) character to wrap the string instead of quotations.

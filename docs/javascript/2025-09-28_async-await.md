@@ -3,6 +3,7 @@
 **Topic:** `async`/`await`  
 **Problem:** Nested `.then()` chains were hard to read  
 **Solution:** Use `async`/`await` to write sequential code
+**Tags:** #javascript #async
 
 ```js
 async function loadUser(id) {
@@ -29,3 +30,4 @@ async function loadUser(id) {
     console.error(err);
   }
 }
+```
