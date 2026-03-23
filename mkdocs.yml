@@ -60,6 +60,9 @@ markdown_extensions:
   
 extra_css:
   - assets/styles/extra.css
+
+extra_javascript:
+  - assets/javascripts/new-entry.js
 #nav:
 #  - Home: index.md
 #  - JavaScript:
