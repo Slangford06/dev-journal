@@ -1,0 +1,93 @@
+/* Make code blocks a touch more compact */
+.md-typeset code, .md-typeset pre {
+  font-size: 0.9rem;
+}
+
+/* Optional: tighten page width a bit on very wide screens */
+.md-grid {
+  max-width: 75rem; /* default ~61rem */
+}
+
+/* Optional: round images slightly */
+.md-typeset img {
+  border-radius: 6px;
+}
+
+.entry-composer {
+  margin-top: 1.5rem;
+  padding: 1.25rem;
+  border: 1px solid rgba(63, 81, 181, 0.18);
+  border-radius: 16px;
+  background: linear-gradient(180deg, rgba(63, 81, 181, 0.08), rgba(255, 255, 255, 0.02));
+}
+
+.entry-composer__toggle {
+  border: 0;
+  border-radius: 999px;
+  padding: 0.9rem 1.2rem;
+  font: inherit;
+  font-weight: 700;
+  color: white;
+  background: linear-gradient(135deg, #3f51b5, #607d8b);
+  cursor: pointer;
+}
+
+.entry-composer__panel {
+  margin-top: 1rem;
+}
+
+.entry-composer__intro,
+.entry-composer__meta,
+.entry-composer__status {
+  margin: 0.75rem 0;
+}
+
+.entry-composer__field {
+  display: block;
+  margin: 0.9rem 0;
+}
+
+.entry-composer__field span {
+  display: block;
+  margin-bottom: 0.35rem;
+  font-weight: 700;
+}
+
+.entry-composer__field input,
+.entry-composer__field textarea {
+  width: 100%;
+  padding: 0.8rem 0.9rem;
+  border: 1px solid rgba(15, 23, 42, 0.15);
+  border-radius: 12px;
+  font: inherit;
+  background: rgba(255, 255, 255, 0.8);
+  box-sizing: border-box;
+}
+
+.entry-composer__field textarea {
+  resize: vertical;
+}
+
+.entry-composer__actions {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.entry-composer__status {
+  min-height: 1.5rem;
+  color: var(--md-primary-fg-color);
+  font-weight: 600;
+}
+
+[data-md-color-scheme="slate"] .entry-composer {
+  border-color: rgba(121, 134, 203, 0.35);
+  background: linear-gradient(180deg, rgba(63, 81, 181, 0.18), rgba(15, 23, 42, 0.35));
+}
+
+[data-md-color-scheme="slate"] .entry-composer__field input,
+[data-md-color-scheme="slate"] .entry-composer__field textarea {
+  border-color: rgba(148, 163, 184, 0.28);
+  background: rgba(15, 23, 42, 0.72);
+}
