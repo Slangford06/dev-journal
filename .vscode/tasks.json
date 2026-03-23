@@ -2,6 +2,14 @@
   "version": "2.0.0",
   "tasks": [
     {
+      "label": "Docs: generate note indexes",
+      "type": "shell",
+      "command": ".venv/bin/python scripts/generate_note_indexes.py",
+      "group": "build",
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "dedicated" }
+    },
+    {
       "label": "Docs: mkdocs serve",
       "type": "shell",
       "command": "mkdocs serve",
